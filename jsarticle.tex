@@ -1,0 +1,26 @@
+\RequirePackage{plautopatch}
+\documentclass[a4paper,11pt,draft,uplatex,dvipdfmx]{jsarticle}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=15truemm,footskip=9.44028truemm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheoremstyle{mythmsty}
+  {}                       % Space above
+  {}                       % Space below
+  {}                       % Body font
+  {}                       % Head indent amount
+  {\bfseries}              % Head font
+  {}                       % Punctuation after head
+  {5pt plus 1pt minus 1pt} % Space after head
+  {}                       % Head spec (can be left empty, meaning ‘normal’)
+\theoremstyle{mythmsty}
+\newtheorem{theorem}{定理}[section]
+\newtheorem{lemma}[theorem]{補題}
+\newtheorem{proposition}[theorem]{命題}
+\newtheorem{corollary}[theorem]{系}
+\newtheorem{definition}[theorem]{定義}
+\newtheorem{axiom}[theorem]{公理}
+
+\begin{document}
+Bitcoin: A Peer-to-Peer Electronic Cash System
+\end{document}
