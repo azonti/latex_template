@@ -21,12 +21,12 @@
   {5pt plus 1pt minus 1pt} % Space after head
   {}                       % Head spec (can be left empty, meaning ‘normal’)
 \theoremstyle{mythmsty}
-\newtheorem{theorem}{定理}[section]
-\newtheorem{lemma}[theorem]{補題}
-\newtheorem{proposition}[theorem]{命題}
-\newtheorem{corollary}[theorem]{系}
-\newtheorem{definition}[theorem]{定義}
-\newtheorem{axiom}[theorem]{公理}
+\newtheorem{definition}{定義}[section]
+\newtheorem{proposition}[definition]{命題}
+\newtheorem{lemma}[definition]{補題}
+\newtheorem{theorem}[definition]{定理}
+\newtheorem{corollary}[definition]{系}
+\newtheorem{axiom}[definition]{公理}
 
 \begin{document}
 Bitcoin: A Peer-to-Peer Electronic Cash System
